@@ -132,18 +132,23 @@ img{
     max-width: 100%;
 }
 
-.attribution a:nth-child(2){
+.attribution a{
     text-decoration: none;
-    color: purple;
+    color: rgb(72, 54, 173);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 
-@media  (max-width:500px) {
+@media  (max-width:700px) {
 
+
+    html{
+        font-size: 1rem;
+    }
     .container{
-        max-width:100%;
+        width:90%;
+        margin: 1rem auto;
         grid-template-columns: 1fr;
         padding:0.2rem;
         
